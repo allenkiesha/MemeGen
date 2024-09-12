@@ -1,0 +1,149 @@
+.lets-generate-a,
+.select-a-file {
+  position: relative;
+  letter-spacing: -0.05em;
+  line-height: 88%;
+}
+.lets-generate-a {
+  margin: 0;
+  width: 259px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.select-a-file {
+  align-self: stretch;
+}
+.label-text {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 99px;
+}
+.state-layer,
+.upload-image-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.state-layer {
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-4xl);
+}
+.upload-image-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #0a7ce7;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+}
+.select-an-image {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-weight: 600;
+}
+.frame-wrapper,
+.upload-image-button-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.upload-image-button-parent {
+  align-items: center;
+  gap: 5px;
+}
+.frame-wrapper {
+  border-radius: var(--br-5xs);
+  border: 1px dashed #a1a0a0;
+  align-items: flex-start;
+  padding: 28px 87px 32px 85px;
+  text-align: center;
+  color: #8d8d8d;
+}
+.label-text1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: #b8b8b8;
+  text-align: center;
+  display: inline-block;
+  min-width: 88px;
+}
+.state-layer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-4xl);
+}
+.button,
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #e3e3e3;
+  width: 135px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.button-wrapper {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.select-a-file-parent {
+  align-self: stretch;
+  gap: 14px;
+  font-size: var(--font-size-sm);
+  color: #a6a6a6;
+}
+.lets-generate-a-new-meme-parent,
+.main,
+.select-a-file-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lets-generate-a-new-meme-parent {
+  align-self: stretch;
+  gap: 33px;
+  text-align: left;
+  font-size: 38px;
+  color: #000;
+  font-family: var(--font-inter);
+}
+.main {
+  width: 390px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+  padding: 18px 19px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
